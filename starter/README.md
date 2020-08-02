@@ -25,15 +25,18 @@ To download the models using OpenVino downloader tool:
 		cd mouse-controller 
 		python3 /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "face-detection-adas-binary-0001"
 
-######for landmarks-regression-retail-0009	
+for landmarks-regression-retail-0009
+	
 		cd mouse-controller 
 		python3 /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "landmarks-regression-retail-0009"
 
-######for head-pose-estimation-adas-0001
+for head-pose-estimation-adas-0001
+
 		cd mouse-controller 
 		python3 /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "head-pose-estimation-adas-0001"
 
-#####for gaze-estimation-adas-0002
+for gaze-estimation-adas-0002
+
 		cd mouse-controller 
 		python3 /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "gaze-estimation-adas-0002"
 	
