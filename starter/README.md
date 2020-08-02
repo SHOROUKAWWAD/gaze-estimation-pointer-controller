@@ -2,7 +2,7 @@
 
 This project is meat to enable the control over the computer pointer through gaze detection from a video or webcam stream. 
 
-[alt text](pic.png "modelpic")
+[alt text](https://github.com/SHOROUKAWWAD/gaze-estimation-pointer-controller/edit/master/starter/pic.png "modelpic")
 #### possible uses 
  it can be a very helpful tool for people with disabilities in their forelimbs 
 
@@ -85,41 +85,6 @@ total inference time: 3.19
 FPS: 18.8 ~ 19 
 ## structure 
 .
-├── intel
-│   ├── face-detection-adas-binary-0001
-│   │   └── FP32-INT1
-│   │       ├── face-detection-adas-binary-0001.bin
-│   │       └── face-detection-adas-binary-0001.xml
-│   ├── gaze-estimation-adas-0002
-│   │   ├── FP16
-│   │   │   ├── gaze-estimation-adas-0002.bin
-│   │   │   └── gaze-estimation-adas-0002.xml
-│   │   ├── FP16-INT8
-│   │   │   ├── gaze-estimation-adas-0002.bin
-│   │   │   └── gaze-estimation-adas-0002.xml
-│   │   └── FP32
-│   │       ├── gaze-estimation-adas-0002.bin
-│   │       └── gaze-estimation-adas-0002.xml
-│   ├── head-pose-estimation-adas-0001
-│   │   ├── FP16
-│   │   │   ├── head-pose-estimation-adas-0001.bin
-│   │   │   └── head-pose-estimation-adas-0001.xml
-│   │   ├── FP16-INT8
-│   │   │   ├── head-pose-estimation-adas-0001.bin
-│   │   │   └── head-pose-estimation-adas-0001.xml
-│   │   └── FP32
-│   │       ├── head-pose-estimation-adas-0001.bin
-│   │       └── head-pose-estimation-adas-0001.xml
-│   └── landmarks-regression-retail-0009
-│       ├── FP16
-│       │   ├── landmarks-regression-retail-0009.bin
-│       │   └── landmarks-regression-retail-0009.xml
-│       ├── FP16-INT8
-│       │   ├── landmarks-regression-retail-0009.bin
-│       │   └── landmarks-regression-retail-0009.xml
-│       └── FP32
-│           ├── landmarks-regression-retail-0009.bin
-│           └── landmarks-regression-retail-0009.xml
 └── starter
     ├── bin
     │   └── demo.mp4
