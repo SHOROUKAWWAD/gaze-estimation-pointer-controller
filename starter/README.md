@@ -41,18 +41,18 @@ for gaze-estimation-adas-0002
 
 #### CPU
 
-	python3 main.py -f ../../intel/face-detection-adas-binary-0001/<percision>/face-detection-adas-binary-0001.xml -fl ../../intel/landmarks-regression-retail-0009/<percision>/landmarks-regression-retail-0009.xml -hp ../../intel/head-pose-estimation-adas-0001/<percision>/head-pose-estimation-adas-0001.xml -g ../../intel/gaze-estimation-adas-0002/<percision>/gaze-estimation-adas-0002.xml  -i ../bin/demo.mp4 -d CPU -flags fd fld hp ge
+		python3 main.py -f ../../intel/face-detection-adas-binary-0001/<percision>/face-detection-adas-binary-0001.xml -fl ../../intel/landmarks-regression-retail-0009/<percision>/landmarks-regression-retail-0009.xml -hp ../../intel/head-pose-estimation-adas-0001/<percision>/head-pose-estimation-adas-0001.xml -g ../../intel/gaze-estimation-adas-0002/<percision>/gaze-estimation-adas-0002.xml  -i ../bin/demo.mp4 -d CPU -flags fd fld hp ge
 
 #### GPU 
-	python3 main.py -f ../../intel/face-detection-adas-binary-0001/<percision>/face-detection-adas-binary-0001.xml -fl ../../intel/landmarks-regression-retail-0009/<percision>/landmarks-regression-retail-0009.xml -hp ../../intel/head-pose-estimation-adas-0001/<percision>/head-pose-estimation-adas-0001.xml -g ../../intel/gaze-estimation-adas-0002/<percision>/gaze-estimation-adas-0002.xml  -i ../bin/demo.mp4 -d CPU -flags fd fld hp ge
+		python3 main.py -f ../../intel/face-detection-adas-binary-0001/<percision>/face-detection-adas-binary-0001.xml -fl ../../intel/landmarks-regression-retail-0009/<percision>/landmarks-regression-retail-0009.xml -hp ../../intel/head-pose-estimation-adas-0001/<percision>/head-pose-estimation-adas-0001.xml -g ../../intel/gaze-estimation-adas-0002/<percision>/gaze-estimation-adas-0002.xml  -i ../bin/demo.mp4 -d CPU -flags fd fld hp ge
 
 #### FPGA
 
-	python3 main.py -f ../../intel/face-detection-adas-binary-0001/<percision>/face-detection-adas-binary-0001.xml -fl ../../intel/landmarks-regression-retail-0009/<percision>/landmarks-regression-retail-0009.xml -hp ../../intel/head-pose-estimation-adas-0001/<percision>/head-pose-estimation-adas-0001.xml -g ../../intel/gaze-estimation-adas-0002/<percision>/gaze-estimation-adas-0002.xml  -i ../bin/demo.mp4 -d HETERO:CPU,FPGA -flags fd fld hp ge
+		python3 main.py -f ../../intel/face-detection-adas-binary-0001/<percision>/face-detection-adas-binary-0001.xml -fl ../../intel/landmarks-regression-retail-0009/<percision>/landmarks-regression-retail-0009.xml -hp ../../intel/head-pose-estimation-adas-0001/<percision>/head-pose-estimation-adas-0001.xml -g ../../intel/gaze-estimation-adas-0002/<percision>/gaze-estimation-adas-0002.xml  -i ../bin/demo.mp4 -d HETERO:CPU,FPGA -flags fd fld hp ge
 
 #### VPU : NCS2
 
-python3 main.py -f ../../intel/face-detection-adas-binary-0001/<percision>FP32-INT1/face-detection-adas-binary-0001.xml -fl ../../intel/landmarks-regression-retail-0009/<percision>/landmarks-regression-retail-0009.xml -hp ../../intel/head-pose-estimation-adas-0001/<percision>/head-pose-estimation-adas-0001.xml -g ../../intel/gaze-estimation-adas-0002/<percision>/gaze-estimation-adas-0002.xml  -i ../bin/demo.mp4 -d MYRIAD -flags fd fld hp ge
+		python3 main.py -f ../../intel/face-detection-adas-binary-0001/<percision>FP32-INT1/face-detection-adas-binary-0001.xml -fl ../../intel/landmarks-regression-retail-0009/<percision>/landmarks-regression-retail-0009.xml -hp ../../intel/head-pose-estimation-adas-0001/<percision>/head-pose-estimation-adas-0001.xml -g ../../intel/gaze-estimation-adas-0002/<percision>/gaze-estimation-adas-0002.xml  -i ../bin/demo.mp4 -d MYRIAD -flags fd fld hp ge
 
 ### Arguments:
 
